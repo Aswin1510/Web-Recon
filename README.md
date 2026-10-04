@@ -22,31 +22,6 @@
 
 ---
 
-## 🖼️ Screenshots
-
-### Homepage — Hero
-![Homepage Hero](Screenshot(226).png)
-
-### Homepage — Coming Up on Campus
-![Coming Up on Campus](Screenshot(227).png)
-
-### Explore Events
-![Explore Events](Screenshot(228).png)
-
-### Submit Event
-![Submit Event](Screenshot(229).png)
-
-### About
-![About](Screenshot(230).png)
-
-### Login
-![Login](Screenshot(231).png)
-
-### Event Details
-![Event Details](Screenshot(232).png)
-
----
-
 ## 🛠️ Tech Stack
 
 - **HTML5** — Semantic markup
