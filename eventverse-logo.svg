@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">BMS EventVerse</title>
+  <desc id="desc">BMS EventVerse logo with the words Plan, Participate, Create Memories</desc>
+  <rect width="640" height="640" fill="#fff9f2"/>
+  <g fill="#33211f" text-anchor="middle" font-family="Georgia, serif">
+    <text x="320" y="230" font-size="180" font-weight="700">B</text>
+    <text x="320" y="285" font-size="34" font-family="Arial, sans-serif" letter-spacing="16">BMS</text>
+    <text x="320" y="390" font-size="76" font-weight="700">Event<tspan fill="#e94b5f">Verse</tspan></text>
+  </g>
+  <g fill="none" stroke="#e94b5f" stroke-width="10" opacity=".9">
+    <path d="M170 225c80 58 220 50 300-8"/>
+    <path d="M177 225c35 2 58-1 82-10"/>
+  </g>
+  <g fill="#f7b6b2">
+    <path d="M434 108l8 22 22 8-22 8-8 22-8-22-22-8 22-8z"/>
+    <path d="M480 148l6 16 16 6-16 6-6 16-6-16-16-6 16-6z"/>
+  </g>
+  <text x="320" y="455" fill="#806d68" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" letter-spacing="5">PLAN  ✦  PARTICIPATE  ✦  CREATE MEMORIES</text>
+</svg>

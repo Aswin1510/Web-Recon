@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign in to BMSCE EventHub as a student or event organizer.">
+  <title>Login | BMSCE EventHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="login">
+  <header class="site-header"><div class="container nav-shell"><a class="brand" href="index.html" aria-label="BMSCE EventHub home"><span class="brand-mark"><img src="BMSCE.jpeg" alt="BMSCE logo"></span><span><strong>BMSCE</strong><em>EventHub</em></span></a><button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="events.html">Explore Events</a><a href="submit-event.html">Submit Event</a><a href="about.html">About</a></nav></div></header>
+  <main>
+    <section class="auth-layout container">
+      <div class="auth-intro"><p class="kicker">Your campus, your view</p><h1>Welcome<br><span>back.</span></h1><p>Keep your event world close. Sign in as a student to discover what is next, or as an organizer to share what you are building.</p><div class="auth-index"><span>01</span><span>Student access</span><span>02</span><span>Organizer access</span></div></div>
+      <div class="auth-panel">
+        <div class="auth-brand"><img src="BMSCE.jpeg" alt="BMS College of Engineering logo"><div><strong>BMSCE</strong><span>EventHub Portal</span></div></div>
+        <div class="auth-panel-top"><span>EVENTHUB PORTAL</span><span>LOCAL ACCESS</span></div>
+        <div class="role-switch" role="tablist" aria-label="Choose account type"><button class="role-tab active" type="button" role="tab" aria-selected="true" data-role="student">Student</button><button class="role-tab" type="button" role="tab" aria-selected="false" data-role="organizer">Organizer</button></div>
+        <div class="auth-mode"><button class="auth-mode-button active" type="button" data-auth-mode="login">Sign in</button><button class="auth-mode-button" type="button" data-auth-mode="register">Create account</button></div>
+        <form id="auth-form" class="auth-form" novalidate>
+          <div class="field-row"><label for="auth-name">Full name <span class="register-only">*</span></label><input id="auth-name" name="name" type="text" autocomplete="name" placeholder="Your name"><small class="field-error" data-auth-error="name"></small></div>
+          <div class="field-row"><label for="auth-email">Email address *</label><input id="auth-email" name="email" type="email" autocomplete="email" placeholder="you@bmsce.ac.in"><small class="field-error" data-auth-error="email"></small></div>
+          <div class="field-row"><label for="auth-password">Password *</label><input id="auth-password" name="password" type="password" autocomplete="current-password" placeholder="At least 6 characters"><small class="field-error" data-auth-error="password"></small></div>
+          <div class="field-row register-only-field hidden"><label for="auth-confirm-password">Confirm password *</label><input id="auth-confirm-password" name="confirmPassword" type="password" autocomplete="new-password" placeholder="Repeat your password"><small class="field-error" data-auth-error="confirmPassword"></small></div>
+          <p id="auth-message" class="auth-message" aria-live="polite"></p>
+          <button class="button button-lime auth-submit" type="submit"><span id="auth-submit-label">Sign in ↗</span></button>
+        </form>
+        <p class="auth-note">Demo portal: account data is stored only in this browser using localStorage.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark"><img src="BMSCE.jpeg" alt="BMSCE logo"></span><span><strong>BMSCE</strong><em>EventHub</em></span></a><p>A student project for BMS College of Engineering</p><span>© <span id="year"></span></span></div></footer><div id="toast-root"></div><script src="script.js"></script>
+</body>
+</html>

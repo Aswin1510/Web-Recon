@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover workshops, hackathons, fests and student activities at BMS College of Engineering.">
+  <title>BMSCE EventHub | Campus events, in one place</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html" aria-label="BMSCE EventHub home">
+        <span class="brand-mark"><img src="BMSCE.jpeg" alt="BMS College of Engineering logo"></span>
+        <span><strong>BMSCE</strong><em>EventHub</em></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a><a href="events.html">Explore Events</a><a href="submit-event.html">Submit Event</a><a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="kicker">BMS College of Engineering <span class="live-dot"></span> Student life, sorted</p>
+        <h1>Find the thing<br><span>worth showing up for.</span></h1>
+        <p class="hero-intro">One sharp, searchable home for workshops, hackathons, fests, talks and the campus moments you do not want to miss.</p>
+        <form id="home-search-form" class="hero-search" action="events.html" method="get">
+          <label class="sr-only" for="home-search-input">Search campus events</label>
+          <span class="search-glyph">/</span><input id="home-search-input" name="search" type="search" placeholder="Search events, clubs, ideas..." autocomplete="off"><button type="submit" class="icon-button" aria-label="Search events">↗</button>
+        </form>
+        <div class="hero-actions"><a class="button button-lime" href="events.html">Explore events <span>↗</span></a><a class="text-link" href="submit-event.html">Share an event <span>↗</span></a></div>
+      </div>
+      <div class="hero-art" aria-label="Featured BMSCE campus event">
+        <div class="art-grid"></div><div class="art-label">NEXT UP<br><strong>09.29.26</strong></div>
+        <div class="art-poster"><div class="poster-top"><span>GDG × OSCODE</span><span>01 / 04</span></div><div class="poster-word">FORGE<span>ML</span></div><div class="poster-line"></div><p>Peer-to-peer<br>machine learning session</p><div class="poster-footer">UG CS LAB 1 <span>09:00 — 11:30</span></div></div>
+        <div class="art-stamp">BMS<br>CE<span>•</span></div>
+      </div>
+    </section>
+
+    <section class="category-strip container" aria-labelledby="category-heading">
+      <div class="section-top"><p class="kicker">Browse the signal</p><h2 id="category-heading">What are you into?</h2><a class="text-link" href="events.html">View all <span>↗</span></a></div>
+      <div class="category-list">
+        <a href="events.html?category=Workshop"><b>01</b><span>Workshops</span><i>↗</i></a><a href="events.html?category=Hackathon"><b>02</b><span>Hackathons</span><i>↗</i></a><a href="events.html?category=Competition"><b>03</b><span>Competitions</span><i>↗</i></a><a href="events.html?category=Cultural%20Event"><b>04</b><span>Cultural events</span><i>↗</i></a><a href="events.html?category=Technical%20Event"><b>05</b><span>Tech events</span><i>↗</i></a><a href="events.html?category=Seminar%2FTalk"><b>06</b><span>Seminars</span><i>↗</i></a><a href="events.html?category=Club%20Activity"><b>07</b><span>Club activities</span><i>↗</i></a>
+      </div>
+    </section>
+
+    <section class="feature-section container" aria-labelledby="highlights-heading">
+      <div class="section-top"><div><p class="kicker">The shortlist</p><h2 id="highlights-heading">Coming up on campus</h2></div><p class="section-note">Fresh things to do, learn<br>and build together.</p></div>
+      <div id="home-highlights" class="highlight-grid"></div>
+    </section>
+
+    <section class="past-section container" aria-labelledby="past-heading">
+      <div class="section-top"><div><p class="kicker">The archive</p><h2 id="past-heading">Good times,<br><span>recently.</span></h2></div><p class="section-note">A few campus moments<br>worth looking back on.</p></div>
+      <div class="past-filters" role="group" aria-label="Filter past events"><button class="past-filter active" type="button" data-past-filter="all">All moments</button><button class="past-filter" type="button" data-past-filter="Cultural Event">Culture</button><button class="past-filter" type="button" data-past-filter="Fest">Fests</button><button class="past-filter" type="button" data-past-filter="Other">Campus life</button></div>
+      <div id="past-events" class="past-grid"></div>
+    </section>
+
+    <section class="how-section container" aria-labelledby="how-heading"><div class="how-copy"><p class="kicker">No digging required</p><h2 id="how-heading">From scattered<br>to <span>sorted.</span></h2></div><div class="how-steps"><article><span>01</span><h3>Discover</h3><p>Search the whole campus calendar by keyword, category or department.</p></article><article><span>02</span><h3>Get the details</h3><p>Know the venue, eligibility, fee, contact and deadline before you go.</p></article><article><span>03</span><h3>Show up</h3><p>Tap through to register and turn a maybe into a memory.</p></article></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark"><img src="BMSCE.jpeg" alt="BMS College of Engineering logo"></span><span><strong>BMSCE</strong><em>EventVerse</em></span></a><p>A student project for BMS College of Engineering</p><span>© <span id="year"></span></span></div></footer>
+  <div id="toast-root"></div><script src="script.js"></script>
+</body>
+</html>
