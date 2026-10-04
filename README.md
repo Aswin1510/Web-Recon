@@ -25,25 +25,25 @@
 ## 🖼️ Screenshots
 
 ### Homepage — Hero
-![Homepage Hero](screenshots/homepage-hero.png)
+![Homepage Hero](screenshots/screenshot(226).png)
 
 ### Homepage — Coming Up on Campus
-![Coming Up on Campus](screenshots/homepage-events.png)
+![Coming Up on Campus](screenshots/screenshot(227).png)
 
 ### Explore Events
-![Explore Events](screenshots/explore-events.png)
+![Explore Events](screenshots/screenshot(228).png)
 
 ### Submit Event
-![Submit Event](screenshots/submit-event.png)
+![Submit Event](screenshots/screenshot(229).png)
 
 ### About
-![About](screenshots/about.png)
+![About](screenshots/screenshot(230).png)
 
 ### Login
-![Login](screenshots/login.png)
+![Login](screenshots/screenshot(231).png)
 
 ### Event Details
-![Event Details](screenshots/event-details.png)
+![Event Details](screenshots/screenshot(232).png)
 
 ---
 
